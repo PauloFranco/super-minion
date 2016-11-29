@@ -28,8 +28,10 @@ end
 bot.command :curse, bucket: :curse, description: 'Release a curse of doom upon your foes (link to curse version)' do |event|
   event.respond 'You can download SVUI from curse via: https://mods.curse.com/addons/wow/supervillain-ui'
 end
-bot.command :markdown, bucket: :version, description: "Use a single grave (`) before and after your message for a single line markdown. Use three graves ( ```) For multiline. More at https://support.discordapp.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-
-"
+bot.command :markdown, bucket: :version, description: 'Teaches  the plebs how to write like a pro' do |event|
+  event.respond "Use a single grave (`) before and after your message for a single line markdown. Use three graves ( ```) For multiline. More at https://support.discordapp.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-
+  "
+end
 
 bot.command :wowhead, bucket: :wowhead, description: 'Makes me go fetch your evil plans for you' do |event, *query|
   event.respond 'http://www.wowhead.com/search?q='+ query.join('+')
