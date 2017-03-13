@@ -11,7 +11,12 @@ bot.bucket :bug, limit: 3, time_span: 60, delay: 10
 bot.bucket :curse, limit: 3, time_span: 60, delay: 10
 bot.bucket :wowhead, limit: 2, time_span: 60, delay: 10
 bot.bucket :fun, limit: 3, time_span: 60, delay: 10
+bot.bucket :download, limit: 3, time_span: 60, delay: 10
 
+
+bot.command :dowload, bucket: :download, description: 'Gives a minion the tools for destruction' do |event|
+  event.respond "The latest version can be downloaded at https://github.com/FailcoderAddons/supervillain-ui/archive/master.zip"
+end
 
 bot.command :alpha, bucket: :version, description: 'Teach miserable whelps the way to being test subjects' do |event|
   event.respond 'The latest alpha version can be downloaded at https://github.com/FailcoderAddons/supervillain-ui'
