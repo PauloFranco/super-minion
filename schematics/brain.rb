@@ -14,7 +14,7 @@ bot.bucket :fun, limit: 3, time_span: 60, delay: 10
 bot.bucket :download, limit: 3, time_span: 60, delay: 10
 
 
-bot.command :dowload, bucket: :download, description: 'Gives a minion the tools for destruction' do |event|
+bot.command :download, bucket: :download, description: 'Gives a minion the tools for destruction' do |event|
   event.respond "The latest version can be downloaded at https://github.com/FailcoderAddons/supervillain-ui/archive/master.zip"
 end
 
