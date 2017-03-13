@@ -1,6 +1,6 @@
 #Super Minion
 
-This bot uses an implementation of the [Discord](https://discordapp.com/) API using Ruby called [discordrb] (https://github.com/meew0/discordrb/).
+This bot uses an implementation of the [Discord](https://discordapp.com/) API using Ruby called [discordrb](https://github.com/meew0/discordrb/).
 
 
 ## License
