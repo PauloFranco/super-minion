@@ -1,4 +1,6 @@
-#Super Minion
+# Super Minion
+
+![](http://www.cgmeetup.net/forums/uploads/gallery/album_176/gallery_2155_176_110608.jpg)
 
 This bot uses an implementation of the [Discord](https://discordapp.com/) API using Ruby called [discordrb](https://github.com/meew0/discordrb/).
 
