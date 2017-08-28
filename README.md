@@ -1,6 +1,6 @@
 #Super Minion
 
-[Download latest version]https://github.com/PauloFranco/super-minion/archive/master.zip
+[Download latest version](https://github.com/PauloFranco/super-minion/archive/master.zip)
 
 This bot uses an implementation of the [Discord](https://discordapp.com/) API using Ruby called [discordrb](https://github.com/meew0/discordrb/).
 
