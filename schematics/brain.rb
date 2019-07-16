@@ -15,19 +15,19 @@ bot.bucket :download, limit: 3, time_span: 60, delay: 10
 
 
 bot.command :download, bucket: :download, description: 'Gives a minion the tools for destruction' do |event|
-  event.respond "The latest version can be downloaded at https://github.com/FailcoderAddons/supervillain-ui/archive/master.zip"
+  event.respond "The latest version can be downloaded at https://github.com/amm4108/supervillain-ui/archive/master.zip"
 end
 
 bot.command :alpha, bucket: :version, description: 'Teach miserable whelps the way to being test subjects' do |event|
-  event.respond 'The latest alpha version can be downloaded at https://github.com/FailcoderAddons/supervillain-ui'
+  event.respond 'The latest alpha version can be downloaded at https://github.com/amm4108/supervillain-ui'
 end
 
 bot.command :repo, bucket: :repo, description: 'Displays master\'s hidden stash of loot. To steal it, press the green download button, download it as zip and extract it, delete all SVUI folders on wow/interface/addons, and put your new folders there.' do |event|
-  event.respond 'Super Villain UI is being maintained at https://github.com/FailcoderAddons/supervillain-ui'
+  event.respond 'Super Villain UI is being maintained at https://github.com/amm4108/supervillain-ui'
 end
 
 bot.command :bug, bucket: :bug,  description: 'Points out where to take the nasties' do |event|
-  event.respond 'Bugs can be reported on the appropriate channels via Discord  (#bug-reports or #bug-reports-critical) and also via github: https://github.com/FailcoderAddons/supervillain-ui/issues'
+  event.respond 'Bugs can be reported on the appropriate channels via Discord  (#bug-reports or #bug-reports-critical)'
 end
 
 bot.command :curse, bucket: :curse, description: 'Release a curse of doom upon your foes (link to curse version)' do |event|
