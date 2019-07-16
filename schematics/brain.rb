@@ -55,22 +55,30 @@ bot.command :banana, bucket: :fun, help_available: false do |event|
   case random
     when "1"
       event.respond 'I will wake up our dark overlord from his endless sleep for you. *Maybe* he will not kill you for doing that.'
+    end
     when "2"
       event.respond 'You just called villain anonymous dating hotline. Your princess will be kidnaped and brought to you shortly.'
+    end
     when "3"
       event.respond 'My favourite digimon is pikachu. His best ability is kamehameha.'
+    end
     when "4"
       event.respond 'You have just subscribed to *please kill me randomly*. Your death will come swiftly *soon*. Or will it? :wink:'
+    end
     when "5"
       event.respond 'Ring ring ring ring ring ring ring bananaphone!'
     when "6"
       event.respond "I once had a pet ogre named Mr. Fluffy. That's because he used to smush my enemies to death with his club."
+    end
     when "7"
       event.respond 'There is no place like my secret dungeon of endless torment.'
+    end
     when "8"
       event.respond 'I once went on a tinder date with this cute mortal. It was all going really well untill she managed to untie herself and run from my basement.'
+    end
     when "9"
       event.respond "Today is a good day for mass enslavement."
+    end
     when "10"
       event.respond "997 cuts... 998 cuts... 999 cuts... 1000! Whew, it feels so good when you finish your flayling routine."
     end
